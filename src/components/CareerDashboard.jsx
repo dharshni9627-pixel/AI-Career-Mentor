@@ -398,12 +398,34 @@ function CareerDashboard({ careerKey, onCareerSelected }) {
 
           </div>
 
-          <button
-            type="button"
-            className="dashboard-button"
-          >
-            Start Learning →
-          </button>
+      
+          
+      <button
+  type="button"
+  className="start-learning-btn"
+  onClick={(e) => {
+    e.preventDefault();
+
+    const roadmap =
+      document.getElementById("career-roadmap") ||
+      document.querySelector(".roadmap-section");
+
+    if (roadmap) {
+      const top =
+        roadmap.getBoundingClientRect().top +
+        window.scrollY -
+        80;
+
+      window.scrollTo({
+        top,
+        behavior: "smooth",
+      });
+    }
+  }}
+>
+  Start Learning →
+</button> 
+          
 
         </div>
 

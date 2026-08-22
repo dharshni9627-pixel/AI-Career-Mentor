@@ -1223,7 +1223,11 @@ function CareerRoadmap({ careerKey }) {
     "🚀";
 
   return (
-    <section className="roadmap-section">
+    <section
+  id="career-roadmap"
+  className="roadmap-section"
+>
+    
 
       {/* HEADER */}
 
