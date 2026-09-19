@@ -4,77 +4,76 @@ function HackathonFinder() {
   const [search, setSearch] = useState("");
 
   const hackathons = [
-    {
-      id: 1,
-      name: "PEC HACKS 4.0",
-      org: "Panimalar Engineering College",
-      location: "Chennai, Tamil Nadu",
-      date: "August 29–30, 2026",
-      status: "UPCOMING",
-      description:
-        "A 36-hour international student-led hackathon focused on building impactful solutions for real-world challenges.",
-      tracks: ["AI", "Web", "Hardware", "Innovation"],
-      team: "Students",
-      url: "https://pec-hacks.devfolio.co/",
-    },
+  {
+    id: 1,
+    name: "HackNex Season 2",
+    org: "JIS College of Engineering",
+    location: "Kalyani, India",
+    date: "September 25–26, 2026",
+    status: "UPCOMING",
+    description:
+      "A 24-hour national-level hackathon focused on building impactful solutions across AI/ML, FinTech, HealthTech, GreenTech, Web3, EdTech and more.",
+    tracks: ["AI/ML", "FinTech", "HealthTech", "Web3", "EdTech"],
+    team: "Students",
+    url: "https://hacknex-season-2.devfolio.co/",
+  },
 
-    {
-      id: 2,
-      name: "RECURSION - EDITION II",
-      org: "Microsoft Innovations Club, VIT Chennai",
-      location: "Chennai, Tamil Nadu",
-      date: "August 29–30, 2026",
-      status: "UPCOMING",
-      description:
-        "A 24-hour offline student hackathon where participants turn ideas into working technology solutions.",
-      tracks: ["Software", "AI", "Innovation"],
-      team: "Students",
-      url: "https://recursion-edition.devfolio.co/",
-    },
+  {
+    id: 2,
+    name: "Hack4Brahma 2.0",
+    org: "Hack4Brahma",
+    location: "Guwahati, India",
+    date: "September 26–27, 2026",
+    status: "UPCOMING",
+    description:
+      "A national-level hackathon bringing student innovators together to build technology-driven solutions.",
+    tracks: ["AI", "Innovation", "Technology"],
+    team: "Students",
+    url: "https://hack4brahma2.devfolio.co/",
+  },
 
-    {
-      id: 3,
-      name: "RevengersHack 2026",
-      org: "RevengersHack",
-      location: "Online — India",
-      date: "August 22–23, 2026",
-      status: "OPEN",
-      description:
-        "A national online hackathon connecting students, developers and innovators to solve real-world technology challenges.",
-      tracks: ["AI", "Cybersecurity", "Cloud", "Web3"],
-      team: "2–4 members",
-      url: "https://revengershack.devfolio.co/",
-    },
+  {
+    id: 3,
+    name: "HackSpire'26",
+    org: "FIEM ACM Student Chapter",
+    location: "Kolkata, India",
+    date: "October 2–3, 2026",
+    status: "UPCOMING",
+    description:
+      "A national-level hackathon where students and developers collaborate to build solutions for real-world challenges.",
+    tracks: ["AI", "Web", "Innovation", "Software"],
+    team: "Students",
+    url: "https://hackspire26.devfolio.co/",
+  },
 
-    {
-      id: 4,
-      name: "InnoFusion 3.0",
-      org: "University of Engineering and Management",
-      location: "Kolkata, India",
-      date: "August 22–23, 2026",
-      status: "OPEN",
-      description:
-        "A national-level software and hardware hackathon featuring AI, robotics, IoT, cybersecurity and web development.",
-      tracks: ["AI/ML", "Robotics", "IoT", "Cybersecurity"],
-      team: "Students",
-      url: "https://innofusion-3.devfolio.co/",
-    },
+  {
+    id: 4,
+    name: "Megathon X",
+    org: "IIIT Hyderabad",
+    location: "Hyderabad, India",
+    date: "October 10–11, 2026",
+    status: "UPCOMING",
+    description:
+      "A 24-hour on-site student hackathon focused on ideation, building and presenting working prototypes.",
+    tracks: ["AI", "Technology", "Innovation"],
+    team: "1–5 students",
+    url: "https://megathon.in/",
+  },
 
-    {
-      id: 5,
-      name: "CodeStorm 2026: FutureForge",
-      org: "CodeStorm",
-      location: "Online",
-      date: "August 1–31, 2026",
-      status: "OPEN",
-      description:
-        "A student-focused open innovation hackathon covering AI, web development, cybersecurity, education and sustainability.",
-      tracks: ["AI", "Web", "Cybersecurity", "EdTech"],
-      team: "Students",
-      url: "https://codestorm-futureforge.devfolio.co/",
-    },
-  ];
-
+  {
+    id: 5,
+    name: "Hack With GDG S4",
+    org: "Google Developer Groups - KSRCE",
+    location: "Namakkal, Tamil Nadu",
+    date: "October 8–10, 2026",
+    status: "UPCOMING",
+    description:
+      "A 36-hour hackathon where selected teams develop technology solutions through an ideation and building phase.",
+    tracks: ["AI", "Web", "Innovation", "Technology"],
+    team: "Students",
+    url: "https://hack-with-gdg-s4.devfolio.co/",
+  },
+];
   const filteredHackathons = hackathons.filter((hackathon) => {
     const text = `
       ${hackathon.name}
