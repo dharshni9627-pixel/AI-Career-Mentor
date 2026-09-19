@@ -73,6 +73,215 @@ function HackathonFinder() {
     team: "Students",
     url: "https://hack-with-gdg-s4.devfolio.co/",
   },
+    {
+  id: 6,
+  name: "Builders Day by HackUnion",
+  org: "HackUnion",
+  location: "India",
+  date: "September 26, 2026",
+  status: "UPCOMING",
+  description:
+    "A student-focused hackathon for building innovative technology solutions.",
+  tracks: ["AI", "Web", "Software", "Innovation"],
+  team: "Students",
+  url: "https://builders-day.devfolio.co/",
+},
+
+{
+  id: 7,
+  name: "HackSpire'26",
+  org: "FIEM ACM Student Chapter",
+  location: "Kolkata, India",
+  date: "October 2–3, 2026",
+  status: "UPCOMING",
+  description:
+    "A national-level hackathon focused on solving real-world problems through technology.",
+  tracks: ["AI", "Web", "Software", "Innovation"],
+  team: "Students",
+  url: "https://hackspire26.devfolio.co/",
+},
+
+{
+  id: 8,
+  name: "Codeutsava X.0",
+  org: "NIT Raipur",
+  location: "Raipur, India",
+  date: "October 3, 2026",
+  status: "UPCOMING",
+  description:
+    "A large-scale student hackathon encouraging developers to build innovative technology solutions.",
+  tracks: ["AI", "Web", "Technology", "Innovation"],
+  team: "Students",
+  url: "https://codeutsava-x.devfolio.co/",
+},
+
+{
+  id: 9,
+  name: "Hackify 3.0",
+  org: "Hackify",
+  location: "India",
+  date: "October 9, 2026",
+  status: "UPCOMING",
+  description:
+    "A technology hackathon where participants build creative solutions to real-world challenges.",
+  tracks: ["AI", "Web", "Software", "Innovation"],
+  team: "Students",
+  url: "https://hackify-3.devfolio.co/",
+},
+
+{
+  id: 10,
+  name: "DEFINE 4.0",
+  org: "DEFINE",
+  location: "India",
+  date: "October 9, 2026",
+  status: "UPCOMING",
+  description:
+    "A student innovation hackathon focused on technology and problem solving.",
+  tracks: ["AI", "Web", "Innovation"],
+  team: "Students",
+  url: "https://define-4.devfolio.co/",
+},
+
+{
+  id: 11,
+  name: "HACKBIOS 2K26",
+  org: "HACKBIOS",
+  location: "India",
+  date: "October 9, 2026",
+  status: "UPCOMING",
+  description:
+    "A student hackathon bringing developers together to create innovative technology solutions.",
+  tracks: ["AI", "Software", "Web", "Innovation"],
+  team: "Students",
+  url: "https://hackbios-2k26.devfolio.co/",
+},
+
+{
+  id: 12,
+  name: "HACK WITH GDG S4",
+  org: "Google Developer Groups",
+  location: "India",
+  date: "October 8–10, 2026",
+  status: "UPCOMING",
+  description:
+    "A collaborative hackathon where developers build practical solutions using modern technologies.",
+  tracks: ["AI", "Web", "Cloud", "Technology"],
+  team: "Students",
+  url: "https://hack-with-gdg-s4.devfolio.co/",
+},
+
+{
+  id: 13,
+  name: "HackTopus'FE",
+  org: "HackTopus",
+  location: "India",
+  date: "October 14, 2026",
+  status: "UPCOMING",
+  description:
+    "A technology-focused hackathon encouraging students to develop innovative projects.",
+  tracks: ["AI", "Web", "Software", "Innovation"],
+  team: "Students",
+  url: "https://hacktopus-fe.devfolio.co/",
+},
+
+{
+  id: 14,
+  name: "Realm Hack '26",
+  org: "Realm",
+  location: "India",
+  date: "October 23, 2026",
+  status: "UPCOMING",
+  description:
+    "A hackathon for developers and innovators to create technology-driven solutions.",
+  tracks: ["AI", "Web3", "Software", "Innovation"],
+  team: "Students",
+  url: "https://realm-hack-26.devfolio.co/",
+},
+
+{
+  id: 15,
+  name: "Hefty-Hacks",
+  org: "Hefty Network",
+  location: "Online",
+  date: "October 24, 2026",
+  status: "UPCOMING",
+  description:
+    "An online hackathon focused on blockchain and financial technology innovation.",
+  tracks: ["Blockchain", "FinTech", "Web3", "AI"],
+  team: "Students",
+  url: "https://hefty-hacks.devfolio.co/",
+},
+
+{
+  id: 16,
+  name: "HACKER HOUSE GOA 2026",
+  org: "Hacker House",
+  location: "Goa, India",
+  date: "October 28, 2026",
+  status: "UPCOMING",
+  description:
+    "A large technology hackathon bringing developers together to build innovative projects.",
+  tracks: ["AI", "Blockchain", "Web3", "Software"],
+  team: "Developers",
+  url: "https://hacker-house-goa-2026.devfolio.co/",
+},
+
+{
+  id: 17,
+  name: "Winter of Code 2026",
+  org: "Winter of Code",
+  location: "Online",
+  date: "October 15, 2026",
+  status: "UPCOMING",
+  description:
+    "An online coding and open-source focused event for students and developers.",
+  tracks: ["Open Source", "Web", "AI", "Software"],
+  team: "Students",
+  url: "https://winter-of-code-2026.devfolio.co/",
+},
+
+{
+  id: 18,
+  name: "CyberX 26 CTF",
+  org: "Devpost",
+  location: "Bengaluru, India",
+  date: "October 1, 2026",
+  status: "UPCOMING",
+  description:
+    "A cybersecurity capture-the-flag competition focused on security challenges.",
+  tracks: ["Cybersecurity", "CTF", "Ethical Hacking"],
+  team: "Students",
+  url: "https://cyberx-26-ctf.devpost.com/",
+},
+
+{
+  id: 19,
+  name: "Hack-Nation Global AI Hackathon",
+  org: "Hack-Nation",
+  location: "Mumbai, India",
+  date: "October 3–4, 2026",
+  status: "UPCOMING",
+  description:
+    "A global AI-focused hackathon where participants build innovative AI solutions.",
+  tracks: ["AI", "Machine Learning", "Generative AI", "Software"],
+  team: "Students & Developers",
+  url: "https://www.hack-nation.ai/",
+},
+
+{
+  id: 20,
+  name: "Prompt2Product: MLH Hack Day",
+  org: "Major League Hacking",
+  location: "Indore, India",
+  date: "October 8–9, 2026",
+  status: "UPCOMING",
+  description:
+    "A hack day focused on turning ideas and AI/ML concepts into working products.",
+  tracks: ["AI", "Machine Learning", "LLM", "Software"],
+  team: "Students",
+  url: "https://prompt2product.devfolio.co/",
+},
 ];
   const filteredHackathons = hackathons.filter((hackathon) => {
     const text = `
